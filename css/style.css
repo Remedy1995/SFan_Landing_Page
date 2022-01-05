@@ -1,0 +1,843 @@
+ /* Style The Dropdown Button */
+ .dropbtn {
+   
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+  }
+  
+  .dropbtn1 {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 800px;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,10,55,var(--tw-bg-opacity));;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left:0px;
+  }
+div.navbar{
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,10,55,var(--tw-bg-opacity));
+    height: 100px;
+}
+
+  .navbar1{
+    position: relative;
+    left: 0px;
+}
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left:0px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+  }
+  .dropdown-content1 a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: black}
+  .dropdown-content1 a:hover {background-color: black}
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown1:hover .dropdown-content {
+    display: block;
+  }
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+    text-decoration: none;
+   
+  }
+  
+  a{
+    padding: 20px 16px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+    font-stretch: expanded;
+  }
+  a:hover{
+      text-decoration: none;
+      background-color: black;
+      color: white;
+  }
+  .mt-2 {
+    margin-top: 0.5rem;
+}
+  html{
+    
+    overflow-x: hidden;
+}
+#line{
+    position: relative;
+    top: -90px;
+    left: 60px;
+    width: 270px;
+}
+#huda{
+    font-weight: 800;
+}
+#case {
+    font-weight: 600;
+    opacity: 1;
+    position: relative;
+    top: -40px;
+    font-size:medium;
+    font-style: normal;
+}
+
+#excerpt{
+    position: relative;
+    top: -1150px;
+    left: 730px;
+}
+
+    #border {
+        border-left: 4px solid black;
+        height: 1150px;
+        margin-top: -430px;
+        margin-left: 700px;
+    }
+#ready{
+    --tw-text-opacity: 1;
+    color: rgba(0,153,255,var(--tw-text-opacity));
+    font-size: 18px;
+    line-height: 0px;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    padding: 0px 0px;
+}
+#unemployment{
+    position: relative;
+    top: -100px;
+    font-weight: normal;
+    font-size: 16px;
+}
+#tell{
+    font-size: 22px;
+    position: relative;
+    top: -1180px;
+    left: 670px;
+}
+
+#tell1{
+    font-size: 22px;
+    position: relative;
+    top: -980px;
+    left: 670px;
+}
+#unemployment1{
+    position: relative;
+    top: -1180px;
+    font-weight: normal;
+    font-size: 16px;
+    left: 730px;
+}
+
+#tell2{
+    font-size: 22px;
+    position: relative;
+    top: -700px;
+    left: 670px;
+}
+#over{
+    
+    overflow-y: scroll;
+}
+
+#unemployment3{
+    position: relative;
+    top: -700px;
+    left: 730px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#unemployment2{
+    position: relative;
+    top: -980px;
+    font-weight: normal;
+    font-size: 16px;
+    left: 730px;
+}
+    #insight {
+        font-size: 16px;
+        text-decoration: underline;
+        position: relative;
+    top: -70px;
+    }
+#career{
+    position: relative;
+    top: -45px;
+    font-size: 60px;
+    line-height: 50px;
+}
+.text-sfan-blue-100 {
+    --tw-text-opacity: 1;
+    color: rgba(0,153,255,var(--tw-text-opacity));
+    font-size: 90px;
+    line-height: 70px;
+    font-family: Montserrat,sans-serif;
+}
+.text-heading {
+    font-size: 45px;
+}
+.leading-heading {
+    line-height: 44px;
+}
+.bg-sfan-blue-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,10,55,var(--tw-bg-opacity));
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size:inherit;
+   
+}
+#co-building{
+    margin-top: 10px;
+    height: 60px;
+    font-size: 27px;
+}
+.bg-gray-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(243,244,246,var(--tw-bg-opacity));
+}
+
+.sponsors{
+    position: relative;
+    top: 92px;
+    height: 300px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(243,244,246,var(--tw-bg-opacity));
+}
+
+#show{
+    width: 60%;
+    margin-top: 40px;
+    height: 90%;
+}
+#us{
+    padding-top: 10px;
+}
+#talk {
+    background-color: white;
+    --tw-text-opacity: 1;
+    color: rgba(0,153,255,var(--tw-text-opacity));
+    height: 40px;
+    margin-left: 70px;
+    padding: 0px 12px;
+}
+
+    #if {
+        font-family: Montserrat,sans-serif;
+        line-height: 25px;
+        font-weight: normal;
+        font-size: 19px;
+        margin-top: -40px;
+        margin-left: 10px;
+    }
+#interested{
+    font-size: 56px;
+    font-family: Montserrat,sans-serif;
+    line-height: 45px;
+    margin-top: 30px;
+
+}
+.partner-us{
+    background-image: url('https://www.sfanonline.org/static/media/waves.5f91312d.png');
+    background-size: cover;
+    height: 700px;
+  padding-top:70px;
+    position: relative;
+   
+    top: 2569px;
+}
+
+/* .partner-us {
+    background-position: 50%;
+}
+.partner-us {
+    background-size: cover;
+} */
+
+#let1{
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+#bullets{
+    height: 10px;
+}
+#imag{
+    height: 300px;
+}
+#employee{
+    font-size: 20px;
+}
+
+
+#employee1 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+#let{
+    position: relative;
+    top: -200px;
+    left: 520px;
+}
+#p1 {
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+}
+
+.leading-4 {
+    line-height: 1rem;
+    font-weight: 700;
+    
+}
+
+#words{
+    font-family: Montserrat,sans-serif;
+    font-size: 15.5px;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-top: 30px;
+    font-weight: normal;
+}
+#whitearea{
+    width: 860px;
+    position: relative;
+    left: 42px;
+    height: 300px;
+    top: 10px;
+}
+
+#words1{
+    font-family: Montserrat,sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 40px;
+    left: 70px;
+}
+#whitearea1{
+  
+    width: 880px;
+    position: relative;
+    left: 70px;
+    height: 300px;
+    top: 10px;
+}
+p{
+    font-family: Montserrat,sans-serif;font-size: 15px;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+#full{
+    height: 1550px;
+}
+
+.bg-blue-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(239,246,255,var(--tw-bg-opacity));
+    width: 80%;
+    position: relative;
+    top: -220px;
+    left: 70px;
+    
+}
+
+.bg-sfan-blue-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,153,255,var(--tw-bg-opacity));
+}
+
+.shadow, .shadow-md {
+    box-shadow:5px 
+}
+
+    #corporate {
+        font-weight: 800;
+        line-height: 1.5rem;
+        font-size: 2rem;
+        font-family: Montserrat,sans-serif;
+        height: 75px;
+}
+#there{
+    font-size: 1.125rem;
+    font-weight: 600;
+    position: relative;
+    top: -320px;
+}
+#sfan{
+    font-size: 60px;
+}
+#working{
+    position: relative;
+    top: -300px;
+    font-size: 56px;
+    margin-left: -55px;
+}
+#the{
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    font-size:17px;
+    position: relative;
+    top: -290px;
+}
+#leader{
+    position: relative;
+    top: 0px;
+    font-size: 17px;
+}
+#trust{
+    font-size: 55px
+}
+
+#brands{
+    width: 180px;
+    position: relative;
+    top: -50px;
+}
+#brands1{
+    width: 100px;
+    position: relative;
+    top: -55px;
+    left: 40px;
+}
+
+#brands2{
+    width: 170px;
+    position: relative;
+    top: -40px;
+}
+
+#brands3{
+    width: 170px;
+    position: relative;
+    top: -65px;
+}
+.pl-2 {
+    padding-left: 0.5rem;
+}
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.border-blue-400 {
+    --tw-border-opacity: 1;
+    border-color: rgba(96,165,250,var(--tw-border-opacity));
+}
+#form{
+    margin-top: 90px;
+    margin-left: -30px
+}
+.duration-500 {
+    transition-duration: .5s;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.text-center {
+    text-align: center;
+}
+
+#contact{
+    padding-left:2px;
+    --tw-bg-opacity: 1;
+    border: 1px solid rgba(96,165,250,var(--tw-bg-opacity));
+    
+}
+.bg-blue-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(96,165,250,var(--tw-bg-opacity));
+}
+.w-full {
+    width: 100%;
+}
+
+.mt-2 {
+    margin-top: 0.5rem;
+}
+#bord {
+    border-top: 1px solid white;
+    width: 1200px;
+    margin-top: 40px;
+    margin-left: 90px;
+    font-size: 16px;
+    text-align: center;
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    position: relative;
+    line-height: 50px;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+    --tw-bg-opacity: 1;
+    color: rgba(96,165,250,var(--tw-bg-opacity));
+}
+.mt-6{
+    font-size: 15px;
+   
+}
+button {
+    background-color: transparent;
+    background-image: none;
+}
+[role=button], button {
+    cursor: pointer;
+}
+[type=button], [type=submit], button {
+    -webkit-appearance: button;
+}
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.border-2 {
+    border-width: 2px;
+}
+.w-full {
+    width: 100%;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+
+#get {
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    font-size: 1.9rem;
+    line-height: 2.25rem;
+    font-weight: 900;
+    position: relative;
+    top: 70px;
+    left: -80px;
+}
+
+#privacy{
+    color: white;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+fieldset, ol, ul {
+    margin-top: 60px;
+    padding: 0;
+    margin-left: 5px;
+    white-space: nowrap;
+}
+#link{
+    padding: 0px 0px;
+}
+#get1 {
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    font-size: 1.9rem;
+    line-height: 2.25rem;
+    font-weight: 900;
+    position: relative;
+    top: 45px;
+    left: -40px;
+}
+
+#styleimage{
+    width: 30px;
+
+}
+#styleimage1{
+    width: 30px;
+    position: relative;
+    top: -30px;
+}
+#unlock1 {
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    font-size: 17px;
+    margin-top: -30px;
+    position: relative;
+    left: 132px;
+    margin-left: -90px;
+}
+#unlock2 {
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 132px;
+    top: -30px;
+    margin-left: -90px;
+    font-weight: normal;
+    padding: 0px 0px;
+}
+#unlock3 {
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: 132px;
+    top: -60px;
+    margin-left: -90px;
+    font-weight: normal;
+    padding: 0px 0px;
+}
+#unlock {
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    font-size: 17px;
+    margin-top: 70px;
+    position: relative;
+    left: 110px;
+    margin-left: -90px;
+}
+#get2{
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    font-size: 1.9rem;
+    line-height: 2.25rem;
+    font-weight: 900;
+    position: relative;
+    top: 58px;
+    left: 30px;
+}
+
+.text-blue-300 {
+    --tw-text-opacity: 1;
+    color: rgba(147,197,253,var(--tw-text-opacity));
+}
+.font-montserrat {
+    font-family: Montserrat,sans-serif;
+}
+.bg-sfan-blue-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,10,55,var(--tw-bg-opacity));
+}
+
+#brands4{
+    width: 120px;
+    position: relative;
+    top: -65px;
+}
+
+.footer{
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,10,55,var(--tw-bg-opacity));
+    height: 550px;
+    position: relative;
+    top: 176rem;
+}
+
+#best{
+    position: relative;
+    top: 80px;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: Montserrat,sans-serif;
+}
+#text-des{
+    font-size: 50px;
+    font-weight: 850;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.font-black {
+    font-weight: 850;
+    padding-left: 60px
+}
+#youth {
+    --tw-text-opacity: 1;
+    color: rgba(0,10,55,var(--tw-text-opacity));
+    position: relative;
+    top: -40px;
+    display: block;
+    left: 0px;
+    height: 50px;
+    font-size: 55px;
+    width: 180px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 900;
+    line-height: 46px;
+}
+.body-image{
+    background-image: url('https://www.sfanonline.org/static/media/partner_us_hero.efe20968.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+    font-family: Montserrat,sans-serif;
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 18px;
+    line-height: 1rem;
+    font-weight: 800;
+    font-size: inherit;
+
+}
+.bg-sfan-blue-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(0,10,55,var(--tw-bg-opacity));
+}
+.font-semibold {
+    font-weight: 600;
+}
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.leading-5 {
+    line-height: 1.25rem;
+}
+.font-semibold {
+    font-weight: 600;
+    font-family: Montserrat,sans-serif;
+}
+.mt-4 {
+    margin-top: 1rem;
+}
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    position: relative;
+    top: -70px;
+}
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.duration-500 {
+    transition-duration: .5s;
+}
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+}
+.transition {
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,-webkit-transform,-webkit-filter,-webkit-backdrop-filter;
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-transform,-webkit-filter,-webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+
+.p-6 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Montserrat,sans-serif;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.text-sfan-blue-900 {
+    --tw-text-opacity: 1;
+    color: rgba(0,10,55,var(--tw-text-opacity));
+    position: relative;
+    top: -60px;
+    left: 60px;
+    height: 50px;
+    font-size: 14px;
+    width: 180px;
+    white-space: nowrap;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+}
+
+.text-sfan-blue-900:hover {
+    background-color:rgba(59,130,246,0.5);
+}
+
+.px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.bg-gray-bg {
+    background-image: url('https://www.sfanonline.org/static/media/gray_bg.38836a6a.png');
+    height: 1300px;
+}
+.py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.font-bold {
+    font-weight: 700;
+}
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
